@@ -69,7 +69,7 @@ define(['N/record','N/url','N/config','N/runtime','N/search','N/format','N/email
 		try{
 		var id=requestBody.id;
 		var name=requestBody.name;
-		var netsuiteId=requestBody.netsuiteId;
+		var netsuiteId=requestBody.netsuiteInternalId;
 		var accountId=requestBody.Id;
 		var relationship=requestBody.relationship;
 		var customerSuccessManager = requestBody.csmName;
